@@ -1,0 +1,5 @@
+CHANGES
+Makefile.PL
+t/Config-SL.t
+lib/Config/SL.pm
+conf/sl.conf

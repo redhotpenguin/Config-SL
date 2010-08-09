@@ -1,0 +1,24 @@
+NAME
+    Config::SL - Configuration file abstraction for Silver Lining
+    applications
+
+ABSTRACT
+      use Config::SL;
+
+      $cfg  = Config::SL->new;
+      $val  = $cfg->key;
+      @vals = $cfg->key;
+
+DESCRIPTION
+    This package is responsible for handling Silver Lining configuration
+    data. It should make our lives less complex.
+
+    It is an abstraction of Config::ApacheFormat, and looks for the
+    configuration file sl.conf in various locations.
+
+COPYRIGHT AND LICENSE
+    Copyright 2010 Silver Lining Networks - All Rights Reserved.
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
